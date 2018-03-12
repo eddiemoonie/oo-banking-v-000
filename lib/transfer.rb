@@ -25,7 +25,7 @@ class Transfer
   end
 
   def reject_transfer
-    self.statut == "rejected"
+    self.status == "rejected"
   end
 
 
